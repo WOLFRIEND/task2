@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.form__label {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #86c551;
+}
+
+.form__input {
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  background-color: transparent;
+  border: 0.125rem solid #75a2e6;
+  color: #75a2e6;
+}

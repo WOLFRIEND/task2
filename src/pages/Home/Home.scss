@@ -1,0 +1,54 @@
+.exchange {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 4rem;
+}
+
+.exchange__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.exchange__cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.exchange__selected-base-asset {
+  display: flex;
+  justify-content: center;
+}
+
+.exchange__selected-base-asset-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #739fe2;
+}
+
+.cap-cards-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cap-card {
+  padding: 1rem;
+  background-color: #86c551;
+  cursor: pointer;
+}
+
+.cap-card_selected {
+  box-shadow: 0 0 0 0.25rem #739fe2 inset;
+}
+
+.cap-card__title {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.exchange__info {
+  color: #739fe2;
+}
